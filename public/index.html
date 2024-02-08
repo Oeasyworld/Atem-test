@@ -1,0 +1,84 @@
+<!doctype html>
+<html data-htmlattr="htmlAttributes">
+  <head>
+    <meta charset="utf-8">
+    <!--!title-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--!meta-->
+
+    <!-- Create icons using https://realfavicongenerator.net/ -->
+    <!-- Note: we don't use favicon.ico, favicon-32x32.png, favicon-16x16.png, or safari-pinned-tab.svg as "favicon" icon comes from hosted assets / Console -->
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/static/icons/apple-touch-icon.png">
+    <link rel="manifest" href="/static/icons/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="msapplication-config" content="/static/icons/browserconfig.xml">
+    
+    <script src="https://kit.fontawesome.com/f73767dede.js" crossorigin="anonymous"></script>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.js' crossorigin="anonymous"></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css' rel='stylesheet' crossorigin="anonymous" />
+    
+    <!-- End Favicons -->
+
+    <!--!link-->
+    <!--!ssrStyles-->
+    <!--!ssrLinks-->
+
+    <style>
+
+     /**
+      * Inter font is back up font for non-apple environments
+      *
+      * https://rsms.me/inter/
+      * https://github.com/philipbelesky/inter-ui
+      */
+
+
+    
+
+      @font-face {
+      font-family: "HurmeGeometricSans1";
+      src: local("HurmeGeometricSans1"),
+        url("./fonts/HurmeGeometricSans/HurmeGeometricSans1.otf") format("truetype");
+      
+      }
+      
+
+
+
+
+
+    </style>
+
+
+
+    <!--!script-->
+
+    <link rel="stylesheet" href="%PUBLIC_URL%/static/reactDates.css" />
+    <title>Atem</title>
+  </head>
+  <body>
+    <div id="root"><!--!body--></div>
+    <div id="portal-root"></div>
+
+    <!--
+         Stripe script should be on every page, not just the pages that
+         use the API:
+
+         https://stripe.com/docs/stripe.js#including-stripejs
+       -->
+    <script src="https://js.stripe.com/v3/" crossorigin></script>
+    <!--!preloadedStateScript-->
+
+    <!--!ssrScripts-->
+
+    <!--
+         Note when adding new external scripts/styles/fonts/etc.:
+         If a Content Security Policy (CSP) is turned on, the new URLs
+         should be whitelisted in the policy.
+
+         Check: /server/csp.js
+    -->
+  </body>
+</html>

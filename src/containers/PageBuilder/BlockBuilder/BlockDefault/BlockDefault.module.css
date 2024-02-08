@@ -1,0 +1,129 @@
+.root .text {
+ 
+  padding: 0px;
+  border-radius: 0px;
+}
+
+.media {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 0;
+  display: none;
+}
+
+
+.text {
+  width: 90%;
+  margin-top: 20px;
+  text-align: left;
+  padding:  150px 0px;
+  padding: 150px 35% 150px 0px;
+  position: relative;
+  left: -20%;
+  
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+
+
+
+.text p {
+  text-align: left;
+  margin: 0px;
+  padding: 0px;
+  color: rgb(255, 255, 255);
+}
+
+.noStyle{
+  background-color: rgb(240, 84, 6);
+  padding: 0px;
+  border-radius: 0px;
+  color:gray;
+  transition: .5s;
+
+  &:hover{
+    margin: 5px 5px 5px 0px;
+    padding: 5px;
+    text-decoration: none;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 5px;
+  }
+}
+
+.header{
+  color: white;
+}
+
+.heroHeader{
+  color: rgb(255, 255, 255);
+}
+.bookACall{
+  padding: 20px;
+  background-color: aqua;
+  color: white;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+  .text{
+    left: -100px;
+    padding: 50px 0px;
+  }
+  .text h1{
+    font-size: 30px;
+  }
+}
+
+
+@media only screen and (max-width: 430px) {
+
+  .text{
+    left: 0px;
+    padding: 0px;
+  }
+  .text h1{
+    font-size: 30px;
+  }
+  
+
+}
+
+@media only screen and (max-width: 412px) {
+
+  .text{
+    left: 0px;
+    padding: 0px;
+  }
+  .text h1{
+    font-size: 30px;
+  }
+  
+
+}
+
+
+@media only screen and (max-width: 360px) {
+
+.text{
+  left: 0px;
+  padding: 0px;
+  
+}
+
+.text h1{
+  font-size: 30px;
+}
+
+
+
+
+
+
+
+}
+
